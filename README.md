@@ -49,7 +49,7 @@ python run.py
 Returns a list of restaurants in JSON format:
 
 json
-Copy code
+
 [
   {
     "id": 1,
@@ -67,7 +67,7 @@ Copy code
 Returns information about a specific restaurant in JSON format, including its pizzas:
 
 json
-Copy code
+
 {
   "id": 1,
   "name": "Dominion Pizza",
@@ -93,8 +93,7 @@ Deletes a restaurant by ID, along with associated RestaurantPizzas. Returns an e
 Returns a list of available pizzas in JSON format:
 
 json
-Copy code
-[
+
   {
     "id": 1,
     "name": "Cheese",
