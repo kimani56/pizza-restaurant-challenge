@@ -3,7 +3,7 @@ from flask_restful import Resource
 from marshmallow import Schema, fields
 from app import rest_api
 
-from services import RestaurantService, PizzaService, RestaurantPizzaService
+from methods import RestaurantService, PizzaService, RestaurantPizzaService
 from exceptions import RestaurantNotFoundException, ValueInputException
 
 
